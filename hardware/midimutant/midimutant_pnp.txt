@@ -1,0 +1,21 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=midimutant
+*Date=14:15:05
+*CreatedBy=Fritzing 0.8.5b.12.16.8b2c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;21.7999;-9.20994;0;Bottom;IMG1
+2;;THT;33.04;-14.0889;0;Bottom;J2
+3;220;THT;20.6022;-20.9272;180;Bottom;R1
+4;220;THT;20.6022;-17.2583;180;Bottom;R2
+5;;;10.3011;-1.45383;0;Bottom;TXT1
+6;;DIP (Dual Inline);6.63222;-13.0249;0;Bottom;74HC14
