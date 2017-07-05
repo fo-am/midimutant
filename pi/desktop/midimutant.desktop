@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Midimutant
+Comment=Fun with midi
+TryExec=/home/pi/midimutant.sh
+Exec=/home/pi/midimutant.sh
+Icon=/usr/share/pixmaps/minecraft-pi.png
+Terminal=true
+Type=Application
+Categories=Application;
+StartupNotify=true
