@@ -9,6 +9,7 @@ The files in boot need to go in /boot (probably good idea to compare
 with existing rather than copying them over). The relevant part of
 config.txt is:
 
+    lcd_rotate=2
     dtoverlay=pi3-miniuart-bt
     init_uart_clock=39062500
     init_uart_baud=38400
@@ -52,3 +53,8 @@ To make the application fullscreen with no window decoration, add this to
      <maximized>true</maximized>
     </application>
 
+4. Turn off the mouse pointer
+
+Doing the properly for touchscreen was tricky to figure out (unclutter etc show the mouse when it moves). Edit /etc/lightdm/lightdm.conf search for the xserver-command option and uncomment it to be this:
+
+    xserver-command=X -nocursor

@@ -1,5 +1,4 @@
 @lxpanel --profile LXDE-pi
 @pcmanfm --desktop --profile LXDE-pi
 @xscreensaver -no-splash
-@lxterminal
-@midimutant
+@lxterminal -s "/home/pi/midimutant.sh"
